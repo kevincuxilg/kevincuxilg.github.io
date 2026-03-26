@@ -1,8 +1,116 @@
-<!doctype html>
-<html>
-    <head>Kevin Cuxil y Yesica Xiquin</head>
-    <body>
-        <h1>Mi amor, saber que eres el amor de mi vida me da una gran tranquilidad.</h1>
-        <h2>Espero que todo te estè saliendo bien mi amor y estarè atento a tì.</h2>
-    </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum Vitae</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header h1 { margin: 0; color: #2c3e50; text-transform: uppercase; }
+        header p { margin: 5px 0; color: #7f8c8d; }
+
+        h2 {
+            color: #2c3e50;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            margin-top: 30px;
+            font-size: 1.2rem;
+        }
+        .section { margin-bottom: 20px; }
+        .item { margin-bottom: 15px; }
+        .item-title { font-weight: bold; color: #34495e; }
+        .date { font-style: italic; color: #95a5a6; float: right; }
+        
+        ul { padding-left: 20px; }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; border: none; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Kevin Cuxil</h1>
+        <p>Desarrollador de Software | Entusiasta de C & Linux</p>
+        <p>📍 Guatemala, Guatemala | 📧 kevin.cuxil@galileo.edu | 📱 +502 5978-9496</p>
+    </header>
+
+    <div class="section">
+        <h2>Perfil Profesional</h2>
+        <p>Desarrollador enfocado en el aprendizaje de lenguajes de bajo nivel como C. Experiencia creando herramientas de lógica financiera y automatización en entornos Linux (Ubuntu). Apasionado por la eficiencia del código y la resolución de problemas.</p>
+    </div>
+
+    <div class="section">
+        <h2>Experiencia Laboral</h2>
+        <div class="item">
+            <span class="date">2019 - Presente</span>
+            <div class="item-title">Desarollador Junior - Servir S.A.</div>
+            <p>Apoyo en equipo de soporte principalmente, apoyo al equipo de desarrollo. Actualmente como encargado de equipo de soporte. </p>
+        </div>
+        <div class="item">
+            <span class="date">2014 - 2018</span>
+            <div class="item-title">Gerente de ventas - Aserradero Lirio de los Valles</div>
+            <p>Logro clave: Optimización de procesos internos mediante scripts personalizados.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Educación</h2>
+        <div class="item">
+            <span class="date">2019 - 2023</span>
+            <div class="item-title">Grado Académico / Ingeniería</div>
+            <p>Nombre de la Universidad o Institución.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Habilidades Técnicas</h2>
+        <ul class="skills">
+            <li>Lenguaje C</li>
+            <li>Linux / Ubuntu</li>
+            <li>HTML5 & CSS3</li>
+            <li>Control de Versiones (Git)</li>
+            <li>Lógica de Programación</li>
+        </ul>
+    </div>
+</div>
+
+</body>
 </html>
